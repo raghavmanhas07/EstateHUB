@@ -4,7 +4,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import dayjs from 'dayjs';
 
 export const api = axios.create({
-    baseURL: "http://localhost:8000/api",
+    baseURL: "https://estate-hub-g6pb.vercel.app/api",
 });
 
 export const getAllProperties = async () => {
