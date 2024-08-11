@@ -1,0 +1,52 @@
+{
+  "name": "estateapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "2.0.1",
+    "@emotion/react": "^11.13.0",
+    "@mantine/core": "^7.11.2",
+    "@mantine/dates": "^7.11.2",
+    "@mantine/form": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.12",
+    "esri-leaflet-geocoder": "2.3.3",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "framer-motion": "^11.3.21",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-accessible-accordion": "^5.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-leaflet": "4.2.1",
+    "react-outside-click-handler": "^1.3.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "6.10.0",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "swiper": "^11.1.4",
+    "tailwind-merge": "^2.4.0",
+    "world-countries": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  }
+}

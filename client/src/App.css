@@ -1,0 +1,29 @@
+/* Add this to your main CSS file or import Mantine's styles in your main JS/JSX file */
+@import '@mantine/core/styles.css';
+@import '@mantine/dates/styles.css';
+
+
+.App {
+  position: relative;
+  overflow-x: clip;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.App>:nth-child(1) {
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: relative;
+}
+
+/* .white-gradient {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.522);
+  filter: blur(100px)
+} */
